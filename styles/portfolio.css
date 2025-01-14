@@ -85,8 +85,8 @@ nav li a{
     max-width: 580px;
     
 }
-.imges{
-    width: 500ps;
+.banner-profile-pic{
+    width: 500px;
 }
 .section-title{
     font-weight: 600;
@@ -194,10 +194,34 @@ footer input[type="text"], input[type="email"],input[type="textarea"]{
     display: none;
 }
 @media screen and (max-width:576px) {
-    .skill-container, .resume-container, footer{
+    .skill-container, 
+    .resume-container,
+     footer,
+     .banner,
+     nav,
+     nav ul{
         flex-direction: column;
     }
-    footer, .about{
+    .content{
+        font-size: 16px;
+    }
+    nav ul{
+        gap: 10px;
+    }
+    .banner-profile-pic{
+        display: none;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner, nav{
+        margin: 10px;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    footer, 
+    .about{
        padding: 20px;
     }
     .about-items{
