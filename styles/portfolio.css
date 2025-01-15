@@ -1,4 +1,5 @@
 /* font style */
+
 .work-sans-normal {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
@@ -85,8 +86,8 @@ nav li a{
     max-width: 580px;
     
 }
-.banner-profile-pic{
-    width: 500px;
+.banner-profile-pic img{
+    width: 100%;
 }
 .section-title{
     font-weight: 600;
@@ -203,13 +204,14 @@ footer input[type="text"], input[type="email"],input[type="textarea"]{
         flex-direction: column;
     }
     .content{
-        font-size: 16px;
+        font-size: 15px;
     }
     nav ul{
         gap: 10px;
     }
     .banner-profile-pic{
-        display: none;
+        width: 100%;
+        /* display: none; */
     }
     .header{
         background-image: none;
